@@ -50,3 +50,17 @@ import gsap from "gsap";
 gsap.to(".box", { x: 100, duration: 2 });
 
 ```
+
+## 5. SweetAlert2
+
+A beautiful, customizable alert library for modern web projects.
+Example:
+``` javascript
+import Swal from "sweetalert2";
+
+Swal.fire({
+  title: 'Hello!',
+  text: 'This is a fancy alert!',
+  icon: 'success',
+});
+```
