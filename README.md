@@ -40,7 +40,7 @@ const now = dayjs();
 console.log(now.format("YYYY-MM-DD HH:mm:ss"));
 ```
 
-## 4. GSAP (GreenSock Animation Platform)
+## 4. [GSAP](https://gsap.com/resources/) (GreenSock Animation Platform)
 
 A powerful animation library for creating smooth web animations.
 Example:
@@ -51,7 +51,7 @@ gsap.to(".box", { x: 100, duration: 2 });
 
 ```
 
-## 5. SweetAlert2
+## 5. [SweetAlert2](https://sweetalert2.github.io/)
 
 A beautiful, customizable alert library for modern web projects.
 Example:
