@@ -28,3 +28,14 @@ axios.get("https://jsonplaceholder.typicode.com/todos/1")
   .then(response => console.log(response.data))
   .catch(error => console.error(error));
 ```
+
+## 3. [Day.js](https://day.js.org/)
+
+A lightweight library for date and time manipulation, alternative to Moment.js.
+Example:
+``` javascript
+import dayjs from "dayjs";
+
+const now = dayjs();
+console.log(now.format("YYYY-MM-DD HH:mm:ss"));
+```
