@@ -64,7 +64,7 @@ Swal.fire({
   icon: 'success',
 });
 ```
-## 6. Three.js
+## 6. [Three.js](https://threejs.org/)
 
 A powerful 3D JavaScript library for creating interactive 3D graphics and animations in the browser.
 
@@ -99,7 +99,7 @@ function animate() {
 animate();
 ```
 
-## 7 . D3.js
+## 7 . [D3.js](https://d3js.org/)
 
 A powerful JavaScript library for data visualization — perfect for creating charts, graphs, and interactive visuals in the browser.
 
@@ -147,7 +147,7 @@ Example:
 </html>
 ```
 
- ## 8. React
+ ## 8. [React](https://react.dev/)
 
 A JavaScript library for building user interfaces with components.
 
