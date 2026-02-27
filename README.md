@@ -98,3 +98,51 @@ function animate() {
 
 animate();
 ```
+
+## 7 . D3.js
+
+A powerful JavaScript library for data visualization — perfect for creating charts, graphs, and interactive visuals in the browser.
+
+Example:
+``` html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>D3.js Simple Bar Chart</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <svg width="500" height="200"></svg>
+
+  <script>
+    // Sample data
+    const data = [30, 80, 45, 60, 20, 90, 50];
+
+    // Select SVG
+    const svg = d3.select('svg');
+
+    // Set scale
+    const xScale = d3.scaleBand()
+                     .domain(d3.range(data.length))
+                     .range([0, 500])
+                     .padding(0.1);
+
+    const yScale = d3.scaleLinear()
+                     .domain([0, d3.max(data)])
+                     .range([0, 200]);
+
+    // Draw bars
+    svg.selectAll('rect')
+       .data(data)
+       .enter()
+       .append('rect')
+       .attr('x', (d, i) => xScale(i))
+       .attr('y', d => 200 - yScale(d))
+       .attr('width', xScale.bandwidth())
+       .attr('height', d => yScale(d))
+       .attr('fill', 'teal');
+  </script>
+</body>
+</html>
+```
