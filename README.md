@@ -39,3 +39,14 @@ import dayjs from "dayjs";
 const now = dayjs();
 console.log(now.format("YYYY-MM-DD HH:mm:ss"));
 ```
+
+## 4. GSAP (GreenSock Animation Platform)
+
+A powerful animation library for creating smooth web animations.
+Example:
+```javascript
+import gsap from "gsap";
+
+gsap.to(".box", { x: 100, duration: 2 });
+
+```
