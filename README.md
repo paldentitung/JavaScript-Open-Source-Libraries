@@ -164,7 +164,7 @@ const root = createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
 
-## 9. Chart.js
+## 9. [Chart.js](https://www.chartjs.org/)
 
 Create graphs and charts.
 
@@ -174,4 +174,17 @@ new Chart(ctx, {
   type: "bar",
   data: { labels: ["A","B"], datasets: [{ data: [5,10] }] }
 });
+```
+
+## 10. [uuid](https://www.uuidgenerator.net/)
+Generate unique IDs.
+
+Very useful for:
+
+To-do app
+
+Multi-vendor project
+``` javascript
+import { v4 as uuidv4 } from "uuid";
+uuidv4();
 ```
