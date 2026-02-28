@@ -188,3 +188,18 @@ Multi-vendor project
 import { v4 as uuidv4 } from "uuid";
 uuidv4();
 ```
+
+## 11. [AOS](https://michalsnik.github.io/aos/)
+
+Animate elements on scroll.
+
+Used for:
+
+Modern landing pages
+
+Portfolio websites
+
+Just add attributes:
+```html
+<div data-aos="fade-up"></div>
+```
