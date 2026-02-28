@@ -163,3 +163,15 @@ function App() {
 const root = createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
+
+## 9. Chart.js
+
+Create graphs and charts.
+
+Best for: Dashboard projects 📊
+```javascript
+new Chart(ctx, {
+  type: "bar",
+  data: { labels: ["A","B"], datasets: [{ data: [5,10] }] }
+});
+```
