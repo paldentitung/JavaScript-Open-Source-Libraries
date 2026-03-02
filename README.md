@@ -220,3 +220,18 @@ function App() {
   );
 }
 ```
+
+## 13. [Framer Motion](https://motion.dev/)
+
+For animations in React. Very beginner-friendly.
+```javascript
+import { motion } from "framer-motion";
+
+function App() {
+  return (
+    <motion.div animate={{ x: 100 }} transition={{ duration: 2 }}>
+      Slide me!
+    </motion.div>
+  );
+}
+```
