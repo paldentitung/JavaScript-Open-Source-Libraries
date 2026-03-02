@@ -245,3 +245,11 @@ anime({
   duration: 2000
 });
 ```
+
+## 15. [Howler.js](https://howlerjs.com/)
+
+For audio in the browser.
+```javascript
+var sound = new Howl({ src: ['sound.mp3'] });
+sound.play();
+```
