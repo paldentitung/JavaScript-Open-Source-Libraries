@@ -203,3 +203,20 @@ Just add attributes:
 ```html
 <div data-aos="fade-up"></div>
 ```
+## 12. [React Router](https://reactrouter.com/)
+
+For routing in React apps (moving between pages).
+```javascript
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+```
