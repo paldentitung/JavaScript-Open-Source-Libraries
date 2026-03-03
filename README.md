@@ -261,9 +261,19 @@ For copying text to clipboard easily.
 new ClipboardJS('.btn'); // <button class="btn" data-clipboard-text="Hello!">Copy</button>
 ```
 
-## 17. ScrollReveal(https://scrollrevealjs.org/)
+## 17. [ScrollReveal](https://scrollrevealjs.org/)
 
 For scroll animations.
 ```javascript
 ScrollReveal().reveal('.box', { duration: 2000, origin: 'left', distance: '100px' });
 ```
+
+## 18. [Notyf](https://carlosroso.com/notyf/)
+
+For beautiful toast notifications.
+```javascript
+const notyf = new Notyf();
+notyf.success('You did it!');
+notyf.error('Oops, something went wrong.');
+```
+
