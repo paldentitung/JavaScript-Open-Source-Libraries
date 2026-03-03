@@ -253,9 +253,17 @@ For audio in the browser.
 var sound = new Howl({ src: ['sound.mp3'] });
 sound.play();
 ```
+
 ## 16. [Clipboard.js](https://clipboardjs.com/)
 
 For copying text to clipboard easily.
 ```javascript
 new ClipboardJS('.btn'); // <button class="btn" data-clipboard-text="Hello!">Copy</button>
+```
+
+## 17. ScrollReveal(https://scrollrevealjs.org/)
+
+For scroll animations.
+```javascript
+ScrollReveal().reveal('.box', { duration: 2000, origin: 'left', distance: '100px' });
 ```
