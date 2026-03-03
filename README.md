@@ -282,3 +282,11 @@ For responsive carousels/sliders.
 ```javascript
 $('.owl-carousel').owlCarousel({ loop:true, margin:10, nav:true });
 ```
+
+
+## 20. [Vivus.js](https://maxwellito.github.io/vivus/)
+
+For SVG animations (drawing effect).
+```javascript
+new Vivus('my-svg', { type: 'delayed', duration: 200 });
+```
