@@ -290,3 +290,11 @@ For SVG animations (drawing effect).
 ```javascript
 new Vivus('my-svg', { type: 'delayed', duration: 200 });
 ```
+
+## 21. [Sortable.js](https://sortablejs.github.io/Sortable/)
+
+For drag-and-drop list sorting.
+```javascript
+var el = document.getElementById('items');
+var sortable = Sortable.create(el);
+```
