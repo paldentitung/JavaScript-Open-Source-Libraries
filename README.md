@@ -24,7 +24,7 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 | [Anime.js](https://animejs.com/) | Lightweight DOM & SVG animations | `anime({targets: '.box', translateX: 250})` |
 | [AOS](https://michalsnik.github.io/aos/) | Scroll animations | `<div data-aos="fade-up"></div>` |
 | [ScrollReveal](https://scrollrevealjs.org/) | Scroll animations | `ScrollReveal().reveal('.box', {duration:2000})` |
-
+| [Toastify](https://apvarun.github.io/toastify-js/) | Simple toast notifications | `Toastify({ text: "Hello World" }).showToast();` |
 ---
 
 ## 📊 Charts & Data Visualization
