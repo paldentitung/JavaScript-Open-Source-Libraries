@@ -13,6 +13,7 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 | [Day.js](https://day.js.org/) | Lightweight date & time manipulation | `dayjs().format("YYYY-MM-DD HH:mm:ss")` |
 | [uuid](https://www.uuidgenerator.net/) | Generate unique IDs | `uuidv4()` |
 | [Typed.js](https://mattboldt.com/demos/typed-js/) | Animated typing effects for text | `new Typed('.element', { strings: ["Hello","World"], typeSpeed: 50 })` |
+| [jQuery](https://jquery.com/) | Simplifies DOM manipulation, event handling, and AJAX | `$('.element').hide();` |
 ---
 
 ## 🎨 Animation & UI Libraries
