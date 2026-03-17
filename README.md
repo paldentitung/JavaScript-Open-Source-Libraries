@@ -14,6 +14,8 @@ A curated list of useful JavaScript libraries for beginners. These libraries hel
 | [uuid](https://www.uuidgenerator.net/) | Generate unique IDs | `uuidv4()` |
 | [Typed.js](https://mattboldt.com/demos/typed-js/) | Animated typing effects for text | `new Typed('.element', { strings: ["Hello","World"], typeSpeed: 50 })` |
 | [jQuery](https://jquery.com/) | Simplifies DOM manipulation, event handling, and AJAX | `$('.element').hide();` |
+| [Moment.js](https://momentjs.com/) | Parse, validate, manipulate, and display dates | `moment().format('YYYY-MM-DD');` |
+
 ---
 
 ## 🎨 Animation & UI Libraries
